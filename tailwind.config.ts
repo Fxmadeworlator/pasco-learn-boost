@@ -21,11 +21,27 @@ export default {
         foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
+          hover: "hsl(var(--primary-hover))",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+        },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          light: "hsl(var(--success-light))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          light: "hsl(var(--warning-light))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
+        premium: {
+          DEFAULT: "hsl(var(--premium))",
+          light: "hsl(var(--premium-light))",
+          foreground: "hsl(var(--premium-foreground))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -45,6 +61,7 @@ export default {
         },
         card: {
           DEFAULT: "hsl(var(--card))",
+          hover: "hsl(var(--card-hover))",
           foreground: "hsl(var(--card-foreground))",
         },
         sidebar: {
@@ -62,6 +79,9 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      boxShadow: {
+        'glow': '0 0 20px hsl(var(--primary) / 0.3)',
       },
       keyframes: {
         "accordion-down": {
